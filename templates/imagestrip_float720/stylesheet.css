@@ -1,0 +1,197 @@
+/* RESET BROWSERSTYLE */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,hr,blockquote {padding: 0; margin: 0;}
+
+/* GLOBAL */
+h1, h2, h3 {font-family: 'century gothic', verdana, sans-serif; color: #222; font-size: 24px; line-height: 1.2em; font-weight: 100; padding: 0 0 6px 0; margin: 6px 0 10px 0;}
+h4 {font-family: 'century gothic', verdana, sans-serif; color: #222; font-size: 20px; line-height: 1.4em; font-weight: 100; margin: 15px 0 10px 0;}
+h5 {font-family: 'century gothic', verdana, sans-serif; color: #222; font-size: 18px; line-height: 1.4em; font-weight: 100; margin: 15px 0 10px 0;}
+h6 {font-family: 'century gothic', verdana, sans-serif; color: #222; font-size: 16px; line-height: 1.4em; font-weight: 100; margin: 15px 0 10px 0;}
+p {margin: 10px 0;}
+ol {margin: 6px 0;}
+ol li {line-height: 1.0em; border: 0; padding: 3px 0; margin: 0 0 0 22px;}
+ul {list-style-image: url(images/inhlist.gif); margin: 6px 0;}
+ul li {line-height: 1.2em; border: 0; padding: 3px 0; margin: 0 0 0 17px;}
+hr {height: 1px; clear: both; color: #999; background-color: #999; border: 0; margin: 16px 0;}
+blockquote {padding: 2px 0 2px 20px; border-left: 3px solid #999;}
+
+/* 
+##############################
+ C O N T E N T  C L A S S E S 
+##############################
+*/
+.tplge_left_border {float: left; border: 5px solid #998; margin: 0 20px 10px 0;}
+.tplge_left_noborder {float: left; border: 0; margin: 0 20px 10px 0;}
+.tplge_right_border {float: right; border: 5px solid #998; margin: 0 0 10px 20px;}
+.tplge_right_noborder {float: right; border: 0; margin: 0 0 10px 20px;}
+.tplge_border {border: 5px solid #998;}
+.tplge_noborder {border: 0;}
+
+.tplge_code {clear: both; background: #eed; font-family: 'courier new', monospace; border: 1px solid #997; padding: 10px 16px;}
+.tplge_box01 {clear: both; background: #e6e6e0; border: 4px double #999; padding: 12px 16px; margin: 16px 0;}
+.tplge_legal {padding: 6px 0;}
+
+.XXXXXXXXXXXXXXXXXX {} /* Marker for styles menu tinymce */
+
+
+/* 
+##############################
+           B O D Y
+##############################
+*/
+
+/* BODY UND SEITE / BODY AND PAGE */
+body {font-family: arial, sans-serif; font-size: 14px; line-height: 1.4em; color: #444;}
+#body {min-width: 720px; background: #111; text-align: left;}
+#top {font-size: 10px; line-height: 10px;}
+
+
+/* 
+##############################
+        L A Y O U T
+##############################
+*/
+
+#tplge_header {}
+#tplge_locator {}
+#tplge_main {text-align: left; margin: 0 auto;}
+#tplge_sidebar1 {float: left; width: 229px;}
+#tplge_content {float: left; width: 458px; text-align: center; margin: 0;}
+.tplge_news {width: 229px; float: left;}
+#tplge_prevtopnext {clear: both;}
+#tplge_notes {}
+
+
+/* 
+##############################
+        D E S I G N
+############################## 
+*/
+
+/* KOPFBEREICH / HEADER */
+
+/* header1 */
+#tplge_header1 {background: url("images/Logo_130px.png") no-repeat scroll right top #ddd; border-top: 1px solid transparent; min-width: 740px;}
+#tplge_header1in {min-width: 680px; max-width: 1375px; padding: 0 20px; margin: 0 auto;}
+#tplge_header1 h1 {font-family: georgia, serif; color: #222; font-size: 32px; line-height: 1.2em; font-weight: 100; padding: 16px 0 6px 6px; margin: 0;}
+
+/* icons div */
+#tplge_icons {padding: 6px 0 2px 0;}
+#tplge_icons img {border: 0; margin: 0 8px;}
+
+/* locator */
+#tplge_locatorin {font-family: arial, sans-serif; font-size: 14px; color: #333; padding: 6px 0 9px 6px;}
+
+/* header2 - image strip */
+/* #tplge_header2 {background: #222 url(images/bgheader2.jpg) center top no-repeat; border-top: 1px solid #222; border-bottom: 1px solid #222;} */
+#tplge_header2 {border-top: 1px solid #222; border-bottom: 1px solid #222;}
+#tplge_header2in {height: 140px;overflow: hidden;}
+#tplge_header2in  img {margin-left: -2px; margin-right: -2px;}
+
+/* MAIN */
+#tplge_main {background: #fff url(images/bgmain.jpg) repeat-x;}
+#tplge_mainin {min-width: 687px; max-width: 1375px; border: 0px solid #999; padding: 20px 0 20px 16px; margin: 0 auto;}
+
+
+/* searchbox */
+#searchbox {float: left; text-align: left; border: 0px solid; padding: 0 16px 0 0; margin: 0;}
+#searchbox .text {width: 140px; float: left; background: #fff; font-family: arial, sans-serif; font-size: 15px; border: 1px solid #aaa; border-radius: 3px; padding: 0 3px 2px 3px;}
+#searchbox input.submit {float: left; background: transparent; color: #555; font-size: 15px; font-weight: 700; border: 0px solid #c50; padding: 2px 0 0 6px;}
+#searchbox input.submit:hover {color: #c60;}
+
+/* languagemenu */
+div.langmenu_container {float: right; text-align: right; border: 0px solid #c00; padding: 0 20px 0 0; margin: 0;}
+.langmenu_container img {margin: 0 0 0 16px;}
+
+
+/* SIDEBAR NAVIGATION */ 
+
+#tplge_sidebar1in {font-family: arial, sans-serif; padding: 0 16px 0 0;}
+
+#tplge_sidebar1 li {list-style-type: none; list-style-image: none;}
+
+#tplge_sidebar1 ul.menulevel1 {color: #c60; border: 0; padding: 0; margin: 16px 10px 0 0;}
+#tplge_sidebar1 ul.menulevel1 li {font-size: 15px; line-height: 1.2em; text-align: left; font-weight: 700; border-bottom: 1px solid #999; padding: 12px 0 4px 0; margin: 0;}
+
+#tplge_sidebar1 ul ul.menulevel2 {border: 0; padding: 8px 0 4px 0; margin: 0;}
+#tplge_sidebar1 ul ul.menulevel2 li {font-size: 15px; line-height: 1.2em; font-weight: 400; text-align: left; border: 0; padding: 4px 0 5px 0; margin: 0;}
+
+#tplge_sidebar1 ul ul ul.menulevel3 {margin: 5px 0 0 0;}
+#tplge_sidebar1 ul ul ul.menulevel3 li {line-height: 1.2em; font-size: 14px; text-align: left; border: 0; padding: 6px 0 1px 16px; margin: 0;}
+
+#tplge_sidebar1 ul.subnav {list-style-type: none; text-align: left; padding: 36px 10px 10px 0; margin: 0;}
+#tplge_sidebar1 ul.subnav li {font-size: 14px; padding: 3px 0 3px 0; margin: 0;}
+div.subnav {text-align: left; padding: 26px 20px 0 6px; margin: 0;}
+div.logo {background: #FFF url(images/Logo_219px.png) center no-repeat; border-top: 1px solid #222; border-bottom: 1px solid #222; height: 250px;}
+p.lastupdate {font-size: 14px; color: #333; padding: 0 10px 0 10px;}
+
+#tplge_sidebar1 a:link {color: #222; font-style: normal;}
+#tplge_sidebar1 a:visited {color: #222; font-style: normal;}
+#tplge_sidebar1 a:hover {color: #c60; font-style: normal; text-decoration: none;}
+#tplge_sidebar1 a:active {color: #c60; font-style: normal; text-decoration: none;}
+#tplge_sidebar1 a:focus {color: #c60; font-style: normal; text-decoration: none;}
+
+
+/* INHALT / CONTENT */
+#tplge_contentin {font-family: arial, sans-serif; font-size: 14px; text-align: left; padding: 20px 20px 20px 0; margin: 0;}
+#tplge_contentin li {background: none;}
+#tplge_contentin h1, #contentin h2, #contentin h3 {}
+#tplge_content .text {width: 90%; border: 1px solid #ccc;}
+
+/* sitemap */
+ul.sitemaplevel1 li {font-weight: 700;}
+ul.sitemaplevel2 li {font-weight: 400;}
+
+/* prev-top-next */
+#tplge_prevtopnextin {text-align: center; border-top: 1px solid #999; padding: 8px 0 0 0; margin: 30px 0 0 0;}
+
+
+/* NEWSBOXEN / NEWSBOXES */
+
+/div.tplge_news {}
+/* div.tplge_newsin {line-height: 1.3em; border: 0px solid #996; padding: 0 20px 0 0; margin: 0;} */ 
+div.tplge_newsin {line-height: 1.3em;margin-bottom: 2em; padding: 0 20px 0 0; margin: 0;}
+div.tplge_newsin ul {list-style-type: none; list-style-image: none; padding: 6px 0 12px 0;}
+div.tplge_newsin li {list-style-type: none; list-style-image: none; line-height: 1.2em; padding: 1px 5px; margin: 2px 0;}
+
+/* div.tplge_newsin h4 {background: #222 url(images/bgnewsh4.jpg); font-size: 15px; color: #bba; border: 0px solid #998; padding: 4px 9px 16px 9px; margin: 20px 0 12px 0;} */
+div.tplge_newsin h4 {background-color: #03f; border-radius: 10px; color: #fff; font-size: 15px; margin: 30px 0 12px; padding: 0; text-align: center;}
+div.tplge_newsin h4 a {color: #fff;}
+div.tplge_newsin h5 {letter-spacing: 1px; margin: 10px 0 0 0;}
+div.tplge_newsin h6 {letter-spacing: 1px; margin: 10px 0 0 0;}
+
+
+/* FUSSLINKS / FOOTER LINKS */
+#tplge_notesin {background: url(images/bgfooter.jpg) top right no-repeat; font-family: arial, sans-serif; font-size: 14px; text-align: right; color: #666; padding: 12px 40px 220px 40px; margin: 0;}
+div#tplge_notes p {padding: 0; margin: 0;}
+
+#tplge_notes a:link {color: #999; text-decoration: none;}
+#tplge_notes a:visited {color: #999; text-decoration: none;}
+#tplge_notes a:hover {color: #f90; text-decoration: underline;}
+#tplge_notes a:active {color: #fff; text-decoration: underline;}
+#tplge_notes a:focus {color: #fff; text-decoration: underline;}
+
+
+/* LINKFORMATIERUNG / LINKS */
+a:link {color: #369; text-decoration: none;}
+a:visited {color: #369; text-decoration: none;}
+a:hover {color: #c60; text-decoration: underline;}
+a:active {color: #c60; text-decoration: underline;}
+a:focus {color: #c60; text-decoration: underline;}
+
+
+/* 
+##############################
+ S O N S T I G E S / R E S T
+############################## 
+*/
+
+#submit {background: #ccc url(images/button.jpg) repeat-x; color: #444; border: 1px solid #999; border-radius: 3px; padding: 1px 6px; margin: 1px;}
+input.submit {background: #ccc url(images/button.jpg) repeat-x; color: #444; border: 1px solid #999; border-radius: 3px; padding: 1px 6px; margin: 1px;}
+input.text {border: 1px solid #999!important;}
+#passwd {border: 1px solid #999;}
+.file {border: 1px solid #999;}
+.scroll {background: #eec; border: 1px solid #997; padding: 10px; overflow: scroll;}
+table.edit {background: #eee; font-size: 14px; line-height: 1.2em; border: 1px solid #999; margin: 1px 0;}
+table.edit td {border: 0; padding: 3px;}
+textarea {width: 90%; background: #fff; font-family: arial, sans-serif; border: 1px solid #999; padding: 10px; margin: 0 0 10px 0;}
+.tpl_button {background: #fff url(images/button.jpg) repeat-x; font-family: arial, sans-serif; font-size: 15px; font-weight: 700; border: 1px solid #999; border-radius: 3px; padding: 4px 12px;}
